@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Firma IT</title>
+    <link rel="shortcut icon" type="image.png" href="logo.png">
+    <link rel="stylesheet" href="styl.css">
+    <script src="kontakt.js"></script>
+</head>
+<body>
+<div class="gora">
+    <div id="logo">
+        <img src="logo.png" alt="Firma IT">
+    </div>
+    <div class="nav">
+        <a href="index.html"><b>Strona Główna</b></a>
+        <a href="uslugi.html"><b>Usługi</b></a>
+        <a href="kontakt.html"><b>Kontakt</b></a>
+    </div>
+</div>
+<div class="baner">
+    <img src="animacja.gif" alt="Usługi Informatyczne">
+</div>
+<h2>Kontakt</h2>
+<br>
+<table>
+    <tr>
+        <td>Imię:</td>
+        <td><input type="text" id="imie"></td>
+    </tr>
+    <tr>
+        <td>Nazwisko:</td>
+        <td><input type="text" id="nazwisko"></td>
+    </tr>
+    <tr>
+        <td>E-mail:</td>
+        <td><input type="email" id="email"></td>
+    </tr>
+    <tr>
+        <td>Zgłoszenie:</td>
+        <td><textarea id="zgloszenie" rows="10" cols="40"></textarea></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" id="regulamin"></td>
+        <td>Zapoznałam/em się z regulaminem</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <input type="reset" class="inpucik" value="Resetuj" onclick="Resetuj()">
+            <input type="button" class="inpucik" value="Prześlij" onclick="Przeslij()">
+        </td>
+    </tr>
+</table>
+<hr>
+<p id="Dane"></p> <br>
+<p id="tresc"></p>
+</body>
+</html>
