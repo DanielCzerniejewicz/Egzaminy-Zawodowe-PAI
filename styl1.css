@@ -1,0 +1,54 @@
+body
+{
+    font-family: Cambria, serif;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+#container {
+    display: flex;
+    justify-content: center;
+}
+#banner, footer
+{
+    background-color: #829EB9;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+#lewy, #prawy
+{
+    background-color: #B3C6D9;
+    height: 400px;
+    width: 25%;
+}
+#srodek
+{
+    background-color: #E0E9F1;
+    height: 400px;
+    width: 50%;
+    text-align: center;
+}
+table
+{
+    border: 1px;
+    border-color: DimGray;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid DimGray;
+    padding: 8px;
+}
+
+tr:hover td {
+    background-color: SteelBlue;
+    color: white;
+}
+img
+{
+    width: 100%;
+    border-radius: 20px;
+}
