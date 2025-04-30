@@ -1,0 +1,61 @@
+#prawy_dolny
+{
+    color: Indigo;
+    height: 580px;
+}
+#container
+{
+    display: flex;
+    justify-content: center;
+}
+#prawy_gorny
+{
+    letter-spacing: 5px;
+    background-color: #9C64A6;
+    color: white;
+    height: 150px;
+    margin-top:0
+}
+img:hover {
+     padding: 3px;
+     border: 1px dashed indigo;
+}
+img
+{
+    margin: 15px;
+    padding: 4px;
+}
+h2
+{
+    text-align: center;
+}
+footer
+{
+    background-color:#9C64A6;
+    color:white;
+    padding: 10px;
+
+}
+#prawy{
+    margin-top: 0;
+    width: 75%;
+    font-size:170%;
+    text-align: center;
+}
+body{
+    font-family: Cambria;
+    margin: 0;
+}
+#lewy
+{
+    background-color: #E1BEE7;
+    width: 25%;
+}
+#lewy_gora
+{
+    height: 400px;
+}
+#lewy_dol
+{
+    height: 300px;
+}

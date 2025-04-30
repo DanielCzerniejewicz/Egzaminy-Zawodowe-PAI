@@ -1,0 +1,8 @@
+1.
+SELECT nazwa,cena FROM `uslugi` WHERE cena >= 50;
+2.
+SELECT AVG(cena),COUNT(cena) FROM `uslugi` WHERE kadra_id LIKE 2;
+3.
+CREATE USER 'Kosmetyczka' IDENTIFIED BY 'Kosmet34'
+4.
+GRANT SELECT, UPDATE ON salon.* TO 'Kosmetyczka';

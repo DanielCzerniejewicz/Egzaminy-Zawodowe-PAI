@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Salon Kosmetyczny</title>
+    <link rel="stylesheet" href="styl7.css">
+    <script>
+        function Zadanie()
+        {
+            let makijaz = document.getElementById("makijaz");
+            let maska = document.getElementById("maska");
+            let masaz = document.getElementById("masaz");
+            let peeling = document.getElementById("peeling");
+            let suma = 0;
+            if (makijaz.checked) suma += 50;
+            if (maska.checked) suma += 30;
+            if (masaz.checked) suma += 20;
+            if (peeling.checked) suma += 45;
+            document.getElementById("wynik").innerHTML = `${suma}`;
+        }
+    </script>
+</head>
+<body>
+<main id="container">
+    <aside id="lewy">
+        <section id="lewy_gora">
+            <h2>Nasza oferta</h2>
+            <ol>
+                <li>
+                    <a href="twarz.html">Oczyszczanie twarzy</a>
+                    <ul>
+                        <li>Peeling</li>
+                        <li>Maska</li>
+                    </ul>
+                </li>
+                <li>Masaż</li>
+                <li>Makijaż</li>
+                <a href="index.html">Strona główna</a>
+            </ol>
+        </section>
+        <section id="lewy_dol">
+            <img src="obraz1.jpg" alt="Personel">
+        </section>
+    </aside>
+    <aside id="prawy">
+        <section id="prawy_gorny">
+            <h1>Usługi Kosmetyczne</h1>
+        </section>
+        <section id="prawy_dolny">
+            <h3>Kalkulator Ceny Wizyty</h3>
+            <form>
+                <input type="checkbox" id="peeling">Peeling <br>
+                <input type="checkbox" id="maska">Maska <br>
+                <input type="checkbox" id="masaz">Masaż twarzy <br>
+                <input type="checkbox" id="makijaz">Makijaż <br>
+                <input type="button" value="oblicz" onClick="Zadanie()">
+            </form>
+            Kwota : <p id="wynik"></p>
+        </section>
+    </aside>
+</main>
+<footer>
+    <p>AUTOR: DANIEL CZERNIEJEWICZ</p>
+</footer>
+</body>
+</html>
